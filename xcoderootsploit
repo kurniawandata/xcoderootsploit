@@ -26,6 +26,7 @@ case $NAME in
                 gcc CVE-2021-4034/cve-2021-4034-poc.c -o CVE-2021-4034/cve-2021-4034-poc
                 cd CVE-2021-4034 && ./cve-2021-4034-poc
                 ;;
+                *)
                 exit 1
                 ;;
         esac
@@ -37,6 +38,7 @@ case $NAME in
                ./CentOS7/CVE-2021-3156/exploit_defaults_mailer.py
                ./CVE-2021-3156/exploit_cent7_userspec.py
                 ;;
+                *)
                 exit 1
                 ;;
         esac
