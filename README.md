@@ -4,7 +4,7 @@ X-code Root Sploit v0.1 Beta 1
 
 ![alt text](http://xcode.or.id/04_small-logo.png)
 
-Dibangun oleh Kurniawan - kurniawanajazenfone@gmail.com - https://xcode.co.id - 20 Maret 2024
+Dibangun oleh Kurniawan - kurniawanajazenfone@gmail.com - https://xcode.co.id - 20 Maret 2024. 
 Aplikasi untuk membantu privilege escalation secara otomatis pada target linux. Dengan exploit ini maka peretas cukup menjalankan program maka otomatis bisa mendapatkan akses root selama target mempunyai kerentanan untuk dilakukan privilege escalation dan exploit-nya tersedia di program ini.
 Program ini masih versi percobaan atau prototipe.
 Demo program : https://www.youtube.com/watch?v=cyXapRnKtDY
