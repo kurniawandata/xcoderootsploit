@@ -8,7 +8,21 @@ Dibangun oleh Kurniawan - kurniawanajazenfone@gmail.com - https://xcode.co.id - 
 Aplikasi untuk privilege escalation secara otomatis pada target linux. Dengan exploit ini maka peretas cukup menjalankan 1 perintah maka otomatis mendapatkan akses root selama target mempunyai kerentanan untuk dilakukan privilege escalation dan exploit-nya tersedia di program ini.
 Program ini masih versi percobaan atau prototipe.
 
-X-code media (PT. Teknologi Server Indonesia) :
+Sumber exploit :
+
+Privilege Escalation pada Ubuntu 20.04.2 (Bisa untuk target Ubuntu 20.10 dan 21.04) - CVE-2021-3490
+https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490
+
+Privilege Escalation pada linux Ubuntu 20.04.1 (CVE-2019-13272)
+https://github.com/blasty/CVE-2021-3156 
+
+Privilege Escalation pada Ubuntu Server 20.04.3 LTS dengan celah CVE-2021-4034
+https://github.com/arthepsy/CVE-2021-4034 
+
+Privilege Escalation pada linux (CVE-2021-3156)
+https://github.com/worawit/CVE-2021-3156 
+
+Bagi yang ingin mengakses X-code media (PT. Teknologi Server Indonesia) :
 - Web X-code : https://xcode.co.id / https://xcode.or.id
 - X-code Pentest : https://xcode.co.id/pentest
 - X-code Professional : https://xcode.co.id/professional & https://kelashacker.com
@@ -41,17 +55,3 @@ X-code media (PT. Teknologi Server Indonesia) :
 Kontak X-code (PT. Teknologi Server Indonesia)
 - WA Admin 1 : 0857 2891 7933
 - WA Admin 2 : 0895 4207 54477
-
-Sumber exploit :
-
-Privilege Escalation pada Ubuntu 20.04.2 (Bisa untuk target Ubuntu 20.10 dan 21.04) - CVE-2021-3490
-https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490
-
-Privilege Escalation pada linux Ubuntu 20.04.1 (CVE-2019-13272)
-https://github.com/blasty/CVE-2021-3156 
-
-Privilege Escalation pada Ubuntu Server 20.04.3 LTS dengan celah CVE-2021-4034
-https://github.com/arthepsy/CVE-2021-4034 
-
-Privilege Escalation pada linux (CVE-2021-3156)
-https://github.com/worawit/CVE-2021-3156 
