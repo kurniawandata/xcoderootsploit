@@ -1,5 +1,5 @@
 #!/bin/bash
-# XcodeRootAutoSploit v0.1 Beta 1
+# XcodeRootSploit v0.1 Beta 1
 if [ -f /etc/os-release ]; then
     . /etc/os-release
     NAME=$NAME
