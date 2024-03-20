@@ -36,7 +36,6 @@ case $NAME in
         case $VERSION_ID in
             "7")
                ./CentOS7/CVE-2021-3156/exploit_defaults_mailer.py
-               ./CentOS7/CVE-2021-3156/exploit_cent7_userspec.py
                 ;;
             *)
                 exit 1
