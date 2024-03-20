@@ -1,5 +1,8 @@
 # xcoderootsploit
-Aplikasi untuk privilege escalation secara otomatis pada target linux
+X-code Root Sploit v0.1 Beta 1
+------------------------------
+Dibangun oleh Kurniawan - https://xcode.co.id - 20 Maret 2024
+Aplikasi untuk privilege escalation secara otomatis pada target linux.
 
 Sumber :
 Privilege Escalation pada Ubuntu 20.04.2 (Bisa untuk target Ubuntu 20.10 dan 21.04) - CVE-2021-3490
